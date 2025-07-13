@@ -1,0 +1,16 @@
+
+body { background: black; color: #33FF33; font-family: 'Courier New', monospace; }
+.gradio-container { border: 2px dashed #33FF33; padding: 10px; }
+h1, h2, h3 { text-shadow: 0 0 5px #33FF33; }
+.gradio-row:first-child::before {
+    content: "";
+    display: block;
+    background-image: url('static/shodan_face.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 256px;
+    height: 256px;
+    margin: auto;
+    filter: brightness(0.9) contrast(1.3) drop-shadow(0 0 12px #00FF00);
+}
